@@ -244,12 +244,11 @@ body{
   position: absolute;
   display:block;
   margin: 0 auto;
-  width: 655px;
-  height: 655px;
+  width: 550px;
+  height: 700px;
   top: 0px;
-  right: 0;
+  right: -65px;
   transform: rotate(15deg);
   z-index: 0;
 }
-
 

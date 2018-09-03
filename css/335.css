@@ -66,11 +66,12 @@ body{
 .logo{
 	position: relative;
 	color: white;
-	z-index: 99999999999;
+	z-index: 1;
 }
 .logo img{
 	width: 110px;
 	height: 40px;
+	z-index: 1;
 }
 .menu{
 	color: white;
@@ -202,13 +203,10 @@ body{
   border-color: rgb(255, 255, 255);
   border-style: solid;
   border-radius: 50%;
-  top: 20px;
   width: 38px;
   height: 38px;
+  position: relative;
   z-index: 1;
-}
-.phone i{
-
 }
 .specialist button{
 	width: 300px;
@@ -237,6 +235,7 @@ body{
 	border-radius: 30px;
 	font-size: 16px;
 	text-align: center;
+	position: relative;
 	z-index: 1;
 }
 .back-textbox{
@@ -252,7 +251,7 @@ body{
   position: absolute;
   display:block;
   margin: 0 auto;
-  width: 450px;
+  width: 490px;
   height: 645px;
   top: 0px;
   right: 0;
